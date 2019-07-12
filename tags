@@ -1,0 +1,149 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AdaptiveGradNormClip	AdaptiveGradNormClip.py	/^class AdaptiveGradNormClip(object):$/;"	c
+AdaptiveLearningRate	AdaptiveLearningRate.py	/^class AdaptiveLearningRate(object):$/;"	c
+Hyperparameters	Hyperparameters.py	/^class Hyperparameters(object):$/;"	c
+RecurrentWhisperer	RecurrentWhisperer.py	/^class RecurrentWhisperer(object):$/;"	c
+Timer	Timer.py	/^class Timer(object):$/;"	c
+_DECREASE_FACTOR	AdaptiveLearningRate.py	/^	_DECREASE_FACTOR = 0.95$/;"	v	class:AdaptiveLearningRate
+_DO_DECREASE_RATE	AdaptiveLearningRate.py	/^	_DO_DECREASE_RATE = True$/;"	v	class:AdaptiveLearningRate
+_DO_INCREASE_RATE	AdaptiveLearningRate.py	/^	_DO_INCREASE_RATE = True$/;"	v	class:AdaptiveLearningRate
+_INCREASE_FACTOR	AdaptiveLearningRate.py	/^	_INCREASE_FACTOR = 1.\/0.95$/;"	v	class:AdaptiveLearningRate
+_INITIAL_RATE	AdaptiveLearningRate.py	/^	_INITIAL_RATE = 1.0$/;"	v	class:AdaptiveLearningRate
+_INIT_CLIP_VAL	AdaptiveGradNormClip.py	/^	_INIT_CLIP_VAL = 1e12$/;"	v	class:AdaptiveGradNormClip
+_MIN_STEPS_PER_DECREASE	AdaptiveLearningRate.py	/^	_MIN_STEPS_PER_DECREASE = 5$/;"	v	class:AdaptiveLearningRate
+_MIN_STEPS_PER_INCREASE	AdaptiveLearningRate.py	/^	_MIN_STEPS_PER_INCREASE = 5$/;"	v	class:AdaptiveLearningRate
+_N_WARMUP_STEPS	AdaptiveLearningRate.py	/^	_N_WARMUP_STEPS = 0$/;"	v	class:AdaptiveLearningRate
+_PERCENTILE	AdaptiveGradNormClip.py	/^	_PERCENTILE = 95$/;"	v	class:AdaptiveGradNormClip
+_SLIDING_WINDOW_LEN	AdaptiveGradNormClip.py	/^	_SLIDING_WINDOW_LEN = 128$/;"	v	class:AdaptiveGradNormClip
+_VERBOSE	AdaptiveGradNormClip.py	/^	_VERBOSE = False$/;"	v	class:AdaptiveGradNormClip
+_VERBOSE	AdaptiveLearningRate.py	/^	_VERBOSE = False$/;"	v	class:AdaptiveLearningRate
+_WARMUP_SCALE	AdaptiveLearningRate.py	/^	_WARMUP_SCALE = 0.001$/;"	v	class:AdaptiveLearningRate
+__call__	AdaptiveGradNormClip.py	/^	def __call__(self):$/;"	m	class:AdaptiveGradNormClip	file:
+__call__	AdaptiveLearningRate.py	/^	def __call__(self):$/;"	m	class:AdaptiveLearningRate	file:
+__call__	Timer.py	/^	def __call__(self):$/;"	m	class:Timer	file:
+__dict__	Hyperparameters.py	/^    def __dict__(self):$/;"	m	class:Hyperparameters	file:
+__getitem__	Hyperparameters.py	/^    def __getitem__(self, key):$/;"	m	class:Hyperparameters	file:
+__init__	AdaptiveGradNormClip.py	/^	def __init__(self,$/;"	m	class:AdaptiveGradNormClip
+__init__	AdaptiveLearningRate.py	/^	def __init__(self,$/;"	m	class:AdaptiveLearningRate
+__init__	Hyperparameters.py	/^    def __init__(self,$/;"	m	class:Hyperparameters
+__init__	RecurrentWhisperer.py	/^    def __init__(self, **kwargs):$/;"	m	class:RecurrentWhisperer
+__init__	Timer.py	/^	def __init__(self, n_tasks=1, n_indent=0, name='Total'):$/;"	m	class:Timer
+__setitem__	Hyperparameters.py	/^    def __setitem__(self, key, value):$/;"	m	class:Hyperparameters	file:
+_close_training	RecurrentWhisperer.py	/^    def _close_training(self, train_data=None, valid_data=None):$/;"	m	class:RecurrentWhisperer
+_conditional_decrease_rate	AdaptiveLearningRate.py	/^	def _conditional_decrease_rate(self):$/;"	m	class:AdaptiveLearningRate
+_conditional_increase_rate	AdaptiveLearningRate.py	/^	def _conditional_increase_rate(self):$/;"	m	class:AdaptiveLearningRate
+_default_hash_hyperparameters	RecurrentWhisperer.py	/^    def _default_hash_hyperparameters():$/;"	m	class:RecurrentWhisperer
+_default_non_hash_hyperparameters	RecurrentWhisperer.py	/^    def _default_non_hash_hyperparameters():$/;"	m	class:RecurrentWhisperer
+_default_super_hash_hyperparameters	RecurrentWhisperer.py	/^    def _default_super_hash_hyperparameters():$/;"	m	class:RecurrentWhisperer
+_default_super_non_hash_hyperparameters	RecurrentWhisperer.py	/^    def _default_super_non_hash_hyperparameters():$/;"	m	class:RecurrentWhisperer
+_epoch	RecurrentWhisperer.py	/^    def _epoch(self):$/;"	m	class:RecurrentWhisperer
+_epoch_last_lvl_improvement	RecurrentWhisperer.py	/^    def _epoch_last_lvl_improvement(self):$/;"	m	class:RecurrentWhisperer
+_generate_hash	Hyperparameters.py	/^    def _generate_hash(self, hps):$/;"	m	class:Hyperparameters
+_get_batch_size	RecurrentWhisperer.py	/^    def _get_batch_size(self, batch_data):$/;"	m	class:RecurrentWhisperer
+_get_data_batches	RecurrentWhisperer.py	/^    def _get_data_batches(self, train_data):$/;"	m	class:RecurrentWhisperer
+_get_lvl_path	RecurrentWhisperer.py	/^    def _get_lvl_path(run_dir, train_or_valid_str, predictions_or_summary_str):$/;"	m	class:RecurrentWhisperer
+_get_train_time	RecurrentWhisperer.py	/^    def _get_train_time(self):$/;"	m	class:RecurrentWhisperer
+_get_warmup_rates	AdaptiveLearningRate.py	/^	def _get_warmup_rates(self):$/;"	m	class:AdaptiveLearningRate
+_increment_epoch	RecurrentWhisperer.py	/^    def _increment_epoch(self):$/;"	m	class:RecurrentWhisperer
+_initialize_or_restore	RecurrentWhisperer.py	/^    def _initialize_or_restore(self):$/;"	m	class:RecurrentWhisperer
+_integrate_hps	RecurrentWhisperer.py	/^    def _integrate_hps(superclass_default_hps, subclass_default_hps):$/;"	m	class:RecurrentWhisperer
+_is_training_complete	RecurrentWhisperer.py	/^    def _is_training_complete(self, loss, do_check_lvl=False):$/;"	m	class:RecurrentWhisperer
+_load_lvl_helper	RecurrentWhisperer.py	/^    def _load_lvl_helper($/;"	m	class:RecurrentWhisperer
+_ltl	RecurrentWhisperer.py	/^    def _ltl(self):$/;"	m	class:RecurrentWhisperer
+_lvl	RecurrentWhisperer.py	/^    def _lvl(self):$/;"	m	class:RecurrentWhisperer
+_maybe_print	Hyperparameters.py	/^    def _maybe_print(self, s):$/;"	m	class:Hyperparameters
+_maybe_save_checkpoint	RecurrentWhisperer.py	/^    def _maybe_save_checkpoint(self):$/;"	m	class:RecurrentWhisperer
+_maybe_save_lvl_checkpoint	RecurrentWhisperer.py	/^    def _maybe_save_lvl_checkpoint(self, valid_loss, train_data, valid_data):$/;"	m	class:RecurrentWhisperer
+_maybe_save_lvl_predictions	RecurrentWhisperer.py	/^    def _maybe_save_lvl_predictions(self, data, train_or_valid_str):$/;"	m	class:RecurrentWhisperer
+_maybe_setup_tensorboard	RecurrentWhisperer.py	/^    def _maybe_setup_tensorboard(self):$/;"	m	class:RecurrentWhisperer
+_maybe_setup_visualizations	RecurrentWhisperer.py	/^    def _maybe_setup_visualizations(self):$/;"	m	class:RecurrentWhisperer
+_maybe_update_training_visualizations	RecurrentWhisperer.py	/^    def _maybe_update_training_visualizations(self, train_data, valid_data):$/;"	m	class:RecurrentWhisperer
+_maybe_update_validation	RecurrentWhisperer.py	/^    def _maybe_update_validation(self, train_data, valid_data):$/;"	m	class:RecurrentWhisperer
+_np_init_weight_matrix	RecurrentWhisperer.py	/^    def _np_init_weight_matrix(self, input_size, output_size):$/;"	m	class:RecurrentWhisperer
+_parse	Hyperparameters.py	/^    def _parse(self, input_hps, default_hash_hps, default_non_hash_hps):$/;"	m	class:Hyperparameters
+_print	Timer.py	/^	def _print(self, str):$/;"	m	class:Timer
+_restore_from_checkpoint	RecurrentWhisperer.py	/^    def _restore_from_checkpoint(self, ckpt):$/;"	m	class:RecurrentWhisperer
+_save_checkpoint	RecurrentWhisperer.py	/^    def _save_checkpoint(self):$/;"	m	class:RecurrentWhisperer
+_save_lvl_visualizations	RecurrentWhisperer.py	/^    def _save_lvl_visualizations(self):$/;"	m	class:RecurrentWhisperer
+_save_training_visualizations	RecurrentWhisperer.py	/^    def _save_training_visualizations(self):$/;"	m	class:RecurrentWhisperer
+_setup_model	RecurrentWhisperer.py	/^    def _setup_model(self):$/;"	m	class:RecurrentWhisperer
+_setup_optimizer	RecurrentWhisperer.py	/^    def _setup_optimizer(self):$/;"	m	class:RecurrentWhisperer
+_setup_run_dir	RecurrentWhisperer.py	/^    def _setup_run_dir(self):$/;"	m	class:RecurrentWhisperer
+_setup_savers	RecurrentWhisperer.py	/^    def _setup_savers(self):$/;"	m	class:RecurrentWhisperer
+_setup_session	RecurrentWhisperer.py	/^    def _setup_session(self):$/;"	m	class:RecurrentWhisperer
+_setup_training	RecurrentWhisperer.py	/^    def _setup_training(self, train_data, valid_data):$/;"	m	class:RecurrentWhisperer
+_setup_visualizations	RecurrentWhisperer.py	/^    def _setup_visualizations(self):$/;"	m	class:RecurrentWhisperer
+_sorted_str_from_dict	Hyperparameters.py	/^    def _sorted_str_from_dict(self, d):$/;"	m	class:Hyperparameters
+_step	RecurrentWhisperer.py	/^    def _step(self):$/;"	m	class:RecurrentWhisperer
+_train_batch	RecurrentWhisperer.py	/^    def _train_batch(self, batch_data):$/;"	m	class:RecurrentWhisperer
+_train_epoch	RecurrentWhisperer.py	/^    def _train_epoch(self, data_batches):$/;"	m	class:RecurrentWhisperer
+_update_epoch_last_lvl_improvement	RecurrentWhisperer.py	/^    def _update_epoch_last_lvl_improvement(self, epoch):$/;"	m	class:RecurrentWhisperer
+_update_ltl	RecurrentWhisperer.py	/^    def _update_ltl(self, ltl):$/;"	m	class:RecurrentWhisperer
+_update_lvl	RecurrentWhisperer.py	/^    def _update_lvl(self, lvl):$/;"	m	class:RecurrentWhisperer
+_update_train_time	RecurrentWhisperer.py	/^    def _update_train_time(self):$/;"	m	class:RecurrentWhisperer
+_update_valid_tensorboard	RecurrentWhisperer.py	/^    def _update_valid_tensorboard(self, valid_summary):$/;"	m	class:RecurrentWhisperer
+_update_validation	RecurrentWhisperer.py	/^    def _update_validation(self, train_data, valid_data):$/;"	m	class:RecurrentWhisperer
+_update_visualizations	RecurrentWhisperer.py	/^    def _update_visualizations(self, train_data, valid_data):$/;"	m	class:RecurrentWhisperer
+_validate_hyperparameters	AdaptiveLearningRate.py	/^	def _validate_hyperparameters(self):$/;"	m	class:AdaptiveLearningRate
+add_helper	Hyperparameters.py	/^        def add_helper(D, key, val):$/;"	f	function:Hyperparameters.unflatten
+assert_non_negative	AdaptiveLearningRate.py	/^		def assert_non_negative(attr_str):$/;"	f	function:AdaptiveLearningRate._validate_hyperparameters
+assign_leaf	Hyperparameters.py	/^        def assign_leaf(key, val):$/;"	f	function:Hyperparameters.unflatten
+author	setup.py	/^    author = 'Matt Golub',$/;"	v
+author_email	setup.py	/^    author_email = 'mgolub@stanford.edu',$/;"	v
+compute_epoch_average	RecurrentWhisperer.py	/^        def compute_epoch_average(vals, n):$/;"	f	function:RecurrentWhisperer._train_epoch
+description	setup.py	/^    description = 'A general class template for training recurrent neural networks using Tensorflow',$/;"	v
+disp	Timer.py	/^	def disp(self):$/;"	m	class:Timer
+extras_require	setup.py	/^    extras_require={$/;"	v
+flatten	Hyperparameters.py	/^    def flatten(D):$/;"	m	class:Hyperparameters
+get_hash	Hyperparameters.py	/^    def get_hash(self):$/;"	m	class:Hyperparameters
+get_hash_all_hps	Hyperparameters.py	/^    def get_hash_all_hps(self):$/;"	m	class:Hyperparameters
+get_helper	Hyperparameters.py	/^        def get_helper(D, key):$/;"	f	function:Hyperparameters.__getitem__
+get_n_params	RecurrentWhisperer.py	/^    def get_n_params(self, scope=None):$/;"	m	class:RecurrentWhisperer
+get_paths	RecurrentWhisperer.py	/^    def get_paths(run_dir):$/;"	m	class:RecurrentWhisperer
+get_run_dir	RecurrentWhisperer.py	/^    def get_run_dir(log_dir, run_hash,$/;"	m	class:RecurrentWhisperer
+get_run_info	RecurrentWhisperer.py	/^    def get_run_info(run_dir):$/;"	m	class:RecurrentWhisperer
+install_requires	setup.py	/^    install_requires = [$/;"	v
+is_run_dir	RecurrentWhisperer.py	/^    def is_run_dir(run_dir):$/;"	m	class:RecurrentWhisperer
+is_running	Timer.py	/^	def is_running(self):$/;"	m	class:Timer
+license	setup.py	/^    license='Apache 2.0',$/;"	v
+list_dirs	RecurrentWhisperer.py	/^        def list_dirs(path_str):$/;"	f	function:RecurrentWhisperer.get_run_info
+load_hyperparameters	RecurrentWhisperer.py	/^    def load_hyperparameters(run_dir):$/;"	m	class:RecurrentWhisperer
+load_lvl_train_predictions	RecurrentWhisperer.py	/^    def load_lvl_train_predictions(run_dir):$/;"	m	class:RecurrentWhisperer
+load_lvl_train_summary	RecurrentWhisperer.py	/^    def load_lvl_train_summary(run_dir):$/;"	m	class:RecurrentWhisperer
+load_lvl_valid_predictions	RecurrentWhisperer.py	/^    def load_lvl_valid_predictions(run_dir):$/;"	m	class:RecurrentWhisperer
+load_lvl_valid_summary	RecurrentWhisperer.py	/^    def load_lvl_valid_summary(run_dir):$/;"	m	class:RecurrentWhisperer
+name	setup.py	/^    name = 'recurrent-whisperer',$/;"	v
+packages	setup.py	/^    packages = find_packages(),$/;"	v
+parse_colon_delimitted_hp_name	Hyperparameters.py	/^    def parse_colon_delimitted_hp_name(hp_name):$/;"	m	class:Hyperparameters
+parse_command_line	Hyperparameters.py	/^    def parse_command_line(default_hps, description=None):$/;"	m	class:Hyperparameters
+parse_helper	Hyperparameters.py	/^        def parse_helper(D, str_prefix=''):$/;"	f	function:Hyperparameters.parse_command_line
+predict	RecurrentWhisperer.py	/^    def predict(self, data):$/;"	m	class:RecurrentWhisperer
+restore	AdaptiveGradNormClip.py	/^	def restore(self, restore_path):$/;"	m	class:AdaptiveGradNormClip
+restore	AdaptiveLearningRate.py	/^	def restore(self, restore_path):$/;"	m	class:AdaptiveLearningRate
+restore	Hyperparameters.py	/^    def restore(restore_path):$/;"	m	class:Hyperparameters
+restore_from_lvl_checkpoint	RecurrentWhisperer.py	/^    def restore_from_lvl_checkpoint(self, model_checkpoint_path=None):$/;"	m	class:RecurrentWhisperer
+restore_from_yaml	Hyperparameters.py	/^    def restore_from_yaml(self, yaml_path):$/;"	m	class:Hyperparameters
+save	AdaptiveGradNormClip.py	/^	def save(self, save_path):$/;"	m	class:AdaptiveGradNormClip
+save	AdaptiveLearningRate.py	/^	def save(self, save_path):$/;"	m	class:AdaptiveLearningRate
+save	Hyperparameters.py	/^    def save(self, save_path):$/;"	m	class:Hyperparameters
+save_helper	RecurrentWhisperer.py	/^        def save_helper(data_to_save, suffix_str):$/;"	f	function:RecurrentWhisperer._maybe_save_lvl_predictions
+save_mat	RecurrentWhisperer.py	/^        def save_mat(data_to_save, save_path_no_extension):$/;"	f	function:RecurrentWhisperer._maybe_save_lvl_predictions
+save_pkl	RecurrentWhisperer.py	/^        def save_pkl(data_to_save, save_path_no_extension):$/;"	f	function:RecurrentWhisperer._maybe_save_lvl_predictions
+set_helper	Hyperparameters.py	/^        def set_helper(D, key, value):$/;"	f	function:Hyperparameters.__setitem__
+split	Timer.py	/^	def split(self, task_name=None):$/;"	m	class:Timer
+start	Timer.py	/^	def start(self):$/;"	m	class:Timer
+str2bool	Hyperparameters.py	/^        def str2bool(v):$/;"	f	function:Hyperparameters.parse_command_line
+test	AdaptiveLearningRate.py	/^def test(n_steps=1000, bias=0., **kwargs):$/;"	f
+train	RecurrentWhisperer.py	/^    def train(self, train_data=None, valid_data=None):$/;"	m	class:RecurrentWhisperer
+unflatten	Hyperparameters.py	/^    def unflatten(D_flat):$/;"	m	class:Hyperparameters
+update	AdaptiveGradNormClip.py	/^	def update(self, grad_norm):$/;"	m	class:AdaptiveGradNormClip
+update	AdaptiveLearningRate.py	/^	def update(self, loss):$/;"	m	class:AdaptiveLearningRate
+update_variables_optimized	RecurrentWhisperer.py	/^    def update_variables_optimized(self, vars_to_train,$/;"	m	class:RecurrentWhisperer
+url	setup.py	/^    url = 'https:\/\/github.com\/mattgolub\/recurrent-whisperer',$/;"	v
+version	setup.py	/^    version = '1.1.2',$/;"	v
+write_yaml	Hyperparameters.py	/^    def write_yaml(self, save_path):$/;"	m	class:Hyperparameters
